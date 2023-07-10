@@ -15,7 +15,8 @@ app.use(express.static(path.join(__dirname , './client/build')))
 app.get('*' , function (req , res) {
     res.sendFile(path.join(__dirname , "./client/build/index.html"));
 })
-const dburl = 'mongodb://localhost:27017/expenses';
+
+const dburl = process.env.dburl;
 
 mongoose.connect(dburl , {
     useNewUrlParser: true,
