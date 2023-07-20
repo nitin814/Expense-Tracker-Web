@@ -8,7 +8,7 @@ The added functionalities is through Ant-Design.
 ## Prerequisites
 Make sure you have Nodejs Installed on your machine.
 
-You should have the a Mongo-DB account to gain access to keys, and tokens required for the project:
+You should have the a Mongo-DB Atlas account to gain access to keys required for the project:
 
 ## Installation
 1. Clone this repository to your local machine or download and extract the ZIP file.
